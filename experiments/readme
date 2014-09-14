@@ -1,0 +1,8 @@
+1. modify the sample number in 'src/SCReducer.java' if needed.
+2. run './make.sh' on pecos to compile the code and generate binary file in 'bin/', if needed.
+3. run 'run.py conffile' to run hadoop job
+4. after done, run 'stat.py conffile' to write the result to result/graph.template.<sampleOption>.data
+
+note that template is in the name as:
+templateSize-serial.t
+eg., 14-1.t, 14-2.t, etc. means a series of different template with size 14.

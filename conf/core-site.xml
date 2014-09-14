@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+     <property>
+         <name>fs.default.name</name>
+         <value>hdfs://hydra03:9000</value>
+     </property>
+
+<property>
+  <name>pds.host.file</name>
+  <value>/h/hydra/home/wanggy/opt/conf-hydra03/slaves</value>
+  <description></description>
+</property>
+
+</configuration>
